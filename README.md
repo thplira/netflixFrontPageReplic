@@ -5,5 +5,7 @@ Challenge project created by Digital Innovation One for the Dev Web course. This
 
 NavBar - in portuguese - developed
 
-![](C:\Users\THPL\Desktop\navbarimg.png)
+![navbarimg](C:\Users\THPL\Desktop\navbarimg.png)
+
+![https://imgur.com/6JyrgKM]()
 
