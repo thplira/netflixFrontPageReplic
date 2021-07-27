@@ -3,7 +3,7 @@ Challenge project created by Digital Innovation One for the Dev Web course. This
 
 #### 23.07.2021
 
-NavBar - in portuguese - develope;
+NavBar - in portuguese - developed;
 
 ![navbar](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/navbar.png)
 
