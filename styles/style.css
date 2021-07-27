@@ -1,9 +1,10 @@
 :root {
     --red: #E50914;
-    --black: #141414;
+    --black: #121212;
     --total-black: #000000;
     --white: #FAFAFA;
     --white-gray: #d8d5d5;
+    --green: #48ad48;
 }
 
 * {
@@ -13,7 +14,8 @@
 }
 
 body {
-    font-family: 'Times New Roman', Times, serif;
+    color: var(--white-gray);
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--black);
 }
 
@@ -21,14 +23,14 @@ html {
     font-size: 62.5%;
 }
 
-/* HEADER */
+/* --------- HEADER --------- */
 
 header .nav-bar-container {
     display: flex;
     width: auto;
     height: 7rem;
     border: 0px solid red;
-    background-image: linear-gradient(to bottom, var(--total-black), var(--black));
+    background-image: linear-gradient(to bottom, var(--total-black), #000000fd, #111111, var(--black), var(--black));
 }
 
 header svg#netflix-logo {
@@ -39,7 +41,7 @@ header svg#netflix-logo {
 
 header nav {
     margin-top: 2.35rem;
-    margin-left: 10rem;
+    margin-left: 8rem;
 }
 
 header nav a {
@@ -47,7 +49,7 @@ header nav a {
     color: var(--white-gray);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
-    margin-right: 5rem;
+    margin-right: 3.6rem;
     font-weight: bold;
 }
 
@@ -99,7 +101,7 @@ header img#informative-bell {
 header img#avatar {
     height: 5rem;
     margin-top: 0.8rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     border-radius: 0.5rem;
 }
 
@@ -110,6 +112,165 @@ header img#avatar {
     border-right: 0.8rem solid transparent;
     border-top: 0.8rem solid var(--white);
     margin-top: 2.8rem;
-    margin-left: 1.2rem;
+    margin-left: 1.1rem;
     border-radius: 0.35rem;
+}
+
+/* --------- MAIN --------- */
+
+main .main-information-wrapper {
+    display: flex;
+    width: auto;
+    height: 100vh;
+    margin-top: 2.5rem;
+    border: 0px solid gray;
+}
+
+main .title-and-synopsis {
+    width: auto;
+    height: 100vh;
+    font-size: 2.3rem;
+    z-index: 2;
+    border: 0px solid gray;
+    padding: 0rem 8rem;
+    padding-top: 2rem;
+}
+
+main .title-and-synopsis > p {
+    margin: 0.8rem 0rem;
+}
+
+main div#space-jam-logo{
+    width: 18vw;
+    height: 28.35vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: radial-gradient(transparent, transparent, var(--black) 73%), url('/assets/img/spacejam-logo669.png');
+    background-color: var(--black);
+    margin-bottom: 2rem;
+}
+
+main div .info-about{
+    display: flex;
+    color: #d8d5d5;
+    font-weight: 100;
+    font-size: 2.1rem;
+    border: 0px solid gray;
+}
+
+main div .star-rating {
+    display: flex;
+    border: 0px solid gray;
+    margin-right: 1rem;
+    border: 0px solid rgb(41, 110, 64);
+}
+
+main div#year, div#duration {
+    margin: 0.3rem 2rem;
+    border: 0px solid rgb(41, 50, 134);
+}
+
+main div .quality-and-sound {
+    border: 0px solid gray;
+    color: var(--black);
+    font-weight: bold;
+    background-color: gray;
+    margin: 0.3rem 1rem;
+    padding: 0rem 0.3rem;
+    background-image: linear-gradient(to bottom, gray, rgba(128, 128, 128, 0.952), rgba(128, 128, 128, 0.836), rgba(0, 0, 0, 0.171), rgba(128, 128, 128, 0.849), rgba(128, 128, 128, 0.925), gray);
+}
+
+main div .flex-container-btns {
+    display: flex;
+    margin-top: 1.4rem;
+}
+
+main a#play-anchor, main a#play-anchor:visited, 
+main a#addMylist-anchor, main a#addMylist-anchor:visited {
+    text-decoration: none;
+    color: var(--white-gray);
+}
+
+main div .play-button {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    background-color: #c4161f;
+    width: 10rem;
+    height: 3.5rem;
+    justify-content: center;
+    border-radius: 0.1rem;
+}
+
+main div#arrow-play {
+    width: 0; 
+    height: 0; 
+    border-left: 1.2rem solid white;
+    border-top: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    margin-top: 0.85rem;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+}
+
+main div span#play {
+    margin-top: 0.85rem;
+}
+
+main div .add-button {
+    display: flex;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    border: 0.1rem solid var(--white-gray);
+    width: 16rem;
+    height: 3.5rem;
+    border-radius: 0.1rem;
+    margin-left: 1.5rem;
+}
+
+main div img#add-svg {
+    margin-left: 1rem;
+}
+
+main div span#mylist {
+    margin-top: 0.85rem;
+    margin-left: 0.5rem;
+}
+
+.thumbs {
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+#thumbs-up, #thumbs-down {
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+#thumbs-up {
+    background-image: url('/assets/thumbsup.svg');
+}
+
+#thumbs-up:hover, #thumbs-up:visited {
+    background-image: url('/assets/thumbsup-hover.svg');
+}
+
+#thumbs-down {
+    background-image: url('/assets/thumbsdown.svg');
+}
+
+#thumbs-down:hover, #thumbs-down:visited {
+    background-image: url('/assets/thumbsdown-hover.svg');
+}
+
+main .main-bg {
+    width: 100vw;
+    height: 100vh;
+    border: 0px solid rgb(0, 255, 76);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: linear-gradient(to right, var(--black), var(--black), #141414f1, #141414be, #14141469, transparent, transparent, transparent), url('/assets/img/spacejam-bg1080.png');
+    margin-left: -19rem;
 }

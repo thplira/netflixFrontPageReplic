@@ -3,9 +3,16 @@ Challenge project created by Digital Innovation One for the Dev Web course. This
 
 #### 23.07.2021
 
-NavBar - in portuguese - developed
+NavBar - in portuguese - develope;
 
-![navbarimg](C:\Users\THPL\Desktop\navbarimg.png)
+![navbar](https://ibb.co/JxC7Yw1)
 
-![https://imgur.com/6JyrgKM]()
+![navbar](C:\Users\THPL\Desktop\navbar.png)
 
+
+
+#### 26.07.2021
+
+Main background banner of the movie/serie/anime add with synopsis (in portuguese), year, duration and other things;
+
+![main bg banner](C:\Users\THPL\Desktop\main bg banner.png)
