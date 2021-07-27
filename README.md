@@ -5,7 +5,7 @@ Challenge project created by Digital Innovation One for the Dev Web course. This
 
 NavBar - in portuguese - develope;
 
-![navbar](C:\Users\THPL\Desktop\Desafios DIO\Interface Netflix\assets\github\navbar.png)
+![navbar](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/navbar.png)
 
 
 
@@ -13,4 +13,5 @@ NavBar - in portuguese - develope;
 
 Main background banner of the movie/serie/anime add with synopsis (in portuguese), year, duration and other things;
 
-![main bg banner](C:\Users\THPL\Desktop\Desafios DIO\Interface Netflix\assets\github\main bg banner.png)
+![main bg banner](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/main%20bg%20banner.png)
+
