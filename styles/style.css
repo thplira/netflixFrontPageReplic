@@ -121,7 +121,7 @@ header img#avatar {
 main .main-information-wrapper {
     display: flex;
     width: auto;
-    height: 100vh;
+    height: 45rem;
     margin-top: 2.5rem;
     border: 0px solid gray;
 }
@@ -273,4 +273,12 @@ main .main-bg {
     background-size: contain;
     background-image: linear-gradient(to right, var(--black), var(--black), #141414f1, #141414be, #14141469, transparent, transparent, transparent), url('/assets/img/spacejam-bg1080.png');
     margin-left: -19rem;
+}
+
+/* --------- CAROUSEL --------- */
+
+.box-movie {
+    height: 100%;
+    width: 100%;
+    display: block;
 }

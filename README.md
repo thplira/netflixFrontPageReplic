@@ -3,7 +3,7 @@ Challenge project created by Digital Innovation One for the Dev Web course. This
 
 #### 23.07.2021
 
-NavBar - in portuguese - develope;
+NavBar - in portuguese - developed;
 
 ![navbar](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/navbar.png)
 
@@ -14,4 +14,14 @@ NavBar - in portuguese - develope;
 Main background banner of the movie/serie/anime add with synopsis (in portuguese), year, duration and other things;
 
 ![main bg banner](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/main%20bg%20banner.png)
+
+
+
+#### 27.07.2021
+
+Using jQuery framework called Owl Carousel was developed a list of movies, series, etc in a Netflix  based carousel.
+
+ ![owl carousel](https://github.com/thplira/netflixFrontPageReplic/blob/master/assets/github/owl%20carousel.png)
+
+
 
